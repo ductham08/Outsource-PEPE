@@ -1,9 +1,13 @@
 @font-face {
     font-family: "Unbutu";
-    src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+    src: url("../font/Righteous/Righteous-Regular.ttf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@font-face {
+    font-family: "Shojumaru";
+    src: url("../font/Shojumaru/Shojumaru-Regular.ttf");
+}
+
 
 * {
     margin: 0;
@@ -13,9 +17,17 @@
 }
 
 h1{
-    font-family: 'Shojumaru', cursive;
+    font-family: 'Shojumaru';
     font-weight: 700;
-    font-size: 3vw !important;
+    font-size: 4vw !important;
+}
+
+@media (max-width:767px) {
+    
+    h1{
+        font-size: 10vw !important;
+    }
+
 }
 
 .main {
@@ -382,6 +394,7 @@ h1{
 
 .buy .item_buy{
     margin: auto;
+    box-shadow: 0px 0px 98px 0px white;
     border: 1.5px solid black;
     padding: 1vw 2vw;
     margin: 1vw auto;
@@ -400,6 +413,10 @@ h1{
     font-weight: 700;
 }
 
+.bottom_buy{
+    margin-top: 55px;
+}
+
 .bottom_buy .left iframe{
     border-radius: 15px;
 }
@@ -412,6 +429,10 @@ h1{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.roadmap{
+    margin: 4vw auto;
 }
 
 @media (max-width:767px) {
@@ -447,7 +468,7 @@ h1{
 
 .token h2{
     text-align: center;
-
+    font-family: 'Shojumaru';
 }
 
 .token .text{
@@ -455,6 +476,8 @@ h1{
     border-radius: 0 1.65vw 0 1.65vw ;
     border: 1.5px solid black;
     padding: 10px;
+    box-shadow: 0px 0px 98px 0px white;
+    margin-top: 30px;
 }
 
 .token .text h4{
@@ -490,6 +513,7 @@ h1{
     border: 1.5px solid black;
     padding: 10px;
     text-align: center;
+    box-shadow: 0px 0px 98px 0px white;
 }
 
 .roadmap .nav_text{
@@ -508,7 +532,8 @@ h1{
     border-radius: 0 1.65vw 0 1.65vw ;
     border: 1.5px solid black;
     padding: 10px;
-    min-height: 20vw;
+    min-height: 28vw;
+    box-shadow: 0px 0px 98px 0px white;
     width: 30%;
 }
 
@@ -559,6 +584,7 @@ h1{
 
 .contact .link{
     display: flex;
+    margin-top: 25px;
     align-items: center;
     justify-content: center;
 }
