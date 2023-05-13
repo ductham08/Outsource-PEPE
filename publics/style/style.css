@@ -311,7 +311,7 @@ h1{
 /* ABOUT START */
 
 .about{
-    margin: 4vw 0;
+    padding: 4vw 0;
 }
 
 .about .container{
@@ -343,6 +343,10 @@ h1{
     margin: auto;
     text-align: center;
     margin-bottom: 35px;
+}
+
+.buy{
+    padding: 5vw 0;
 }
 
 .buy .item_buy{
