@@ -3,11 +3,19 @@
     src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font-family: "Unbutu";
     color: black;
+}
+
+h1{
+    font-family: 'Shojumaru', cursive;
+    font-weight: 700;
+    font-size: 3vw !important;
 }
 
 .main {
@@ -23,6 +31,7 @@
 
 .header{
     box-shadow: 0px 0px 15px black;
+    background-color: black;
 }
 
 body {
@@ -72,6 +81,16 @@ ul {
     padding: 0 1rem;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.header h2{
+    color: white;
+    margin: 0;
+}
+
 .nav-menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -86,7 +105,7 @@ ul {
 }
 
 a.nav-link {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.2vw;
     -webkit-transition: 0.5s;
@@ -195,6 +214,18 @@ a.nav-link:hover {
 /* HOME START */
 .home{
     padding: 4vw 0; 
+    position: relative;
+}
+
+.home .bg{
+    position: absolute;
+    top: 0;
+    opacity: 0.25;
+}
+
+#home .container{
+    position: relative;
+    z-index: 2;
 }
 
 .home .content_top{
