@@ -300,6 +300,10 @@ a.nav-link:hover {
     flex-wrap: wrap;
 }
 
+.content_end .item_content{
+    transition: 0.5s ease-in-out;
+}
+
 .content_end .item_content img{
     width: 25px;
 }
@@ -356,6 +360,7 @@ h1{
 
 .about{
     padding-top: 4vw;
+    margin-bottom: -7vw;
 }
 
 .about .container{
@@ -396,9 +401,9 @@ h1{
 .buy .item_buy{
     margin: auto;
     box-shadow: 0px 0px 98px 0px white;
-    border: 1.5px solid black;
+    border: 3px solid black;
     padding: 1vw 2vw;
-    margin: 1vw auto;
+    margin: 2vw auto;
     border-radius: 0 1.65vw 0 1.65vw ;
     display: flex;
     align-items: center;
