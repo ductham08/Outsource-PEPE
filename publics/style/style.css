@@ -31,7 +31,9 @@ h1{
 }
 
 .main {
-    background-color: #ffd920;
+    background-color: #4f7943;
+    color: white !important;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar { 
@@ -42,8 +44,6 @@ h1{
 /* HEADER START */
 
 .header{
-    box-shadow: 0px 0px 15px black;
-    background-color: black;
 }
 
 body {
@@ -198,7 +198,7 @@ a.nav-link:hover {
         -webkit-transition: 0.5s;
         transition: 0.5s;
         margin: 0 auto;
-        background-color: #ffd920;
+        background-color: #4f7943;
         margin: 0;
         padding: 0;
     }
@@ -222,12 +222,22 @@ a.nav-link:hover {
 
 /* HEADER END */
 
+.main svg path{
+    fill: white;
+    stroke: white;
+}
+
 
 /* HOME START */
 .home{
     padding: 4vw 0; 
     position: relative;
     margin-bottom: 4vw;
+    color: white;
+}
+
+.home h1{
+    color: white;
 }
 
 .home .bg{
@@ -250,6 +260,7 @@ a.nav-link:hover {
 
 .home .content_top h4{
     margin: 3vw 0px;
+    color: white;
 }
 
 .home .list_link{
@@ -260,10 +271,16 @@ a.nav-link:hover {
 
 .home .list_link a{
     text-decoration: none;
+    color: white;
 }
 
 .home .list_link a img {
     width: 4vw;
+}
+
+.home .content_top .right img{
+    border-radius: 100%;
+    box-shadow: 0px 0px 25px 15px white;
 }
 
 @media (max-width:767px) {
@@ -360,15 +377,30 @@ h1{
 
 .about{
     padding-top: 4vw;
-    margin-bottom: -7vw;
+    margin-bottom: 3vw;
+}
+
+.about .banner{
+    padding: 25px;
+}
+
+.about .banner img{
+    border-radius: 100%;
+    box-shadow: 0px 0px 25px 15px white;
 }
 
 .about .container{
     display: flex;
     flex-wrap: wrap;
+    color: white;
+}
+
+.about .container h1{
+    color: white;
 }
 
 .about .container h4{
+    color: white;
     margin: 2vw 0;
 }
 
@@ -465,11 +497,26 @@ h1{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    color: white;
+}
+
+.token .container .right{
+    padding: 35px;
+}
+
+.token .container .right img{
+    border-radius: 100%;
+}
+
+.token .container .content h2,
+.token .container .content h4{
+    color: white;
 }
 
 .token h1{
     text-align: center;
     margin:0  auto 15px auto;
+    color: white;
 }
 
 .token h2{
@@ -478,7 +525,7 @@ h1{
 }
 
 .token .text{
-    background-color: #c9ac1c;
+    background-color: #254d1d;
     border-radius: 0 1.65vw 0 1.65vw ;
     border: 1.5px solid black;
     padding: 10px;
@@ -496,7 +543,7 @@ h1{
 
 @media (max-width:767px) {
     .token .text{
-        background-color: #c9ac1c;
+        background-color: #254d1d;
        border-radius: 0 5.65vw 0 5.65vw ;
         border: 1.5px solid black;
         padding: 10px;
@@ -582,10 +629,15 @@ h1{
 
 .contact h1{
     text-align: center;
+    color: white;
 }
 
 .contact .logo{
     margin: 2vw auto;
+}
+
+.contact .logo img{
+    border-radius: 100%;
 }
 
 .contact .link{
@@ -597,6 +649,7 @@ h1{
 
 .contact h4{
     text-align: center;
+    color: white;
     margin: 35px auto;
 }
 
@@ -621,4 +674,5 @@ h1{
 
 .footer p{
     margin: 0;
+    color: white;
 }
