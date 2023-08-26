@@ -31,7 +31,7 @@ h1{
 }
 
 .main {
-    background-color: #4f7943;
+    background-color: #254d1d;
     color: white !important;
     overflow: hidden;
 }
@@ -198,7 +198,7 @@ a.nav-link:hover {
         -webkit-transition: 0.5s;
         transition: 0.5s;
         margin: 0 auto;
-        background-color: #4f7943;
+        background-color: #254d1d;
         margin: 0;
         padding: 0;
     }
@@ -280,7 +280,6 @@ a.nav-link:hover {
 
 .home .content_top .right img{
     border-radius: 100%;
-    box-shadow: 0px 0px 25px 15px white;
 }
 
 @media (max-width:767px) {
@@ -386,7 +385,6 @@ h1{
 
 .about .banner img{
     border-radius: 100%;
-    box-shadow: 0px 0px 25px 15px white;
 }
 
 .about .container{
@@ -432,7 +430,6 @@ h1{
 
 .buy .item_buy{
     margin: auto;
-    box-shadow: 0px 0px 98px 0px white;
     border: 3px solid black;
     padding: 1vw 2vw;
     margin: 2vw auto;
@@ -529,7 +526,6 @@ h1{
     border-radius: 0 1.65vw 0 1.65vw ;
     border: 1.5px solid black;
     padding: 10px;
-    box-shadow: 0px 0px 98px 0px white;
     margin-top: 30px;
 }
 
@@ -566,7 +562,6 @@ h1{
     border: 1.5px solid black;
     padding: 10px;
     text-align: center;
-    box-shadow: 0px 0px 98px 0px white;
 }
 
 .roadmap .nav_text{
@@ -586,7 +581,6 @@ h1{
     border: 1.5px solid black;
     padding: 10px;
     min-height: 28vw;
-    box-shadow: 0px 0px 98px 0px white;
     width: 30%;
 }
 
