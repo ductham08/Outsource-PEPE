@@ -230,9 +230,11 @@ a.nav-link:hover {
 
 /* HOME START */
 .home{
-    padding: 4vw 0; 
-    position: relative;
-    margin-bottom: 4vw;
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     color: white;
 }
 
@@ -303,7 +305,13 @@ a.nav-link:hover {
     }
 
     .home .right{
-        display: none;
+        /* display: none;    */
+        order: 1;
+    }
+
+    .home .left{
+        /* display: none;    */
+        order: 2;
     }
 }
 
@@ -375,8 +383,12 @@ h1{
 /* ABOUT START */
 
 .about{
-    padding-top: 4vw;
-    margin-bottom: 3vw;
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: white;
 }
 
 .about .banner{
@@ -614,7 +626,7 @@ h1{
 }
 
 .contact{
-    margin: 5vw auto;
+    min-height: 80vh;
 }
 
 .contact .link .item img{
